@@ -10,6 +10,10 @@
     }
   },
 
+  nitro: {
+    preset: 'vercel-edge'
+  },
+
   runtimeConfig: {
     public: {
       // Dynamic IP will be set by auto_configure_network.ps1
